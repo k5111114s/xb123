@@ -1,0 +1,74 @@
+{
+  "log": {
+    "version": "1.2",
+    "creator": {
+      "name": "MoonHAR example",
+      "version": "1.0"
+    },
+    "pages": [
+      {
+        "id": "page_1",
+        "startedDateTime": "2026-08-11T00:00:00.000Z",
+        "title": "Example page",
+        "pageTimings": {
+          "onContentLoad": 80,
+          "onLoad": 140
+        }
+      }
+    ],
+    "entries": [
+      {
+        "pageref": "page_1",
+        "startedDateTime": "2026-08-11T00:00:00.010Z",
+        "time": 120,
+        "request": {
+          "method": "GET",
+          "url": "https://example.com/index.html",
+          "httpVersion": "HTTP/2",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "accept",
+              "value": "text/html"
+            }
+          ],
+          "queryString": [],
+          "headersSize": 128,
+          "bodySize": 0
+        },
+        "response": {
+          "status": 200,
+          "statusText": "OK",
+          "httpVersion": "HTTP/2",
+          "cookies": [],
+          "headers": [
+            {
+              "name": "content-type",
+              "value": "text/html"
+            }
+          ],
+          "content": {
+            "size": 2048,
+            "mimeType": "text/html",
+            "text": ""
+          },
+          "redirectURL": "",
+          "headersSize": 96,
+          "bodySize": 2048
+        },
+        "cache": {},
+        "timings": {
+          "blocked": 1,
+          "dns": 2,
+          "connect": 3,
+          "ssl": 1,
+          "send": 4,
+          "wait": 90,
+          "receive": 19
+        },
+        "serverIPAddress": "93.184.216.34",
+        "connection": "443"
+      }
+    ]
+  }
+}

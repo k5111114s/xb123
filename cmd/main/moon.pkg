@@ -1,5 +1,5 @@
-// import {
-//   "k5111114s/xb123" @lib,
-// }
+import {
+  "k5111114s/xb123" @har
+}
 
 pkgtype(kind: "executable")

@@ -23,6 +23,18 @@ moon test
 moon run cmd/main
 ```
 
+The executable prints a summary, validation diagnostics, and a compact JSON
+report using the built-in sample archive. A readable fixture is available at
+`examples/sample.har.json`.
+
+## Public API
+
+- `parse_json(text)` parses JSON into MoonHAR's small `JVal` tree.
+- `parse_har(text)` maps HAR JSON into `HarArchive`.
+- `validate_archive(archive)` returns structured diagnostics.
+- `analyze_archive(archive)` returns grouped performance statistics.
+- `render_summary(summary)` and `render_summary_json(summary)` produce reports.
+
 The library is intentionally dependency-light so it can be published to
 mooncakes.io and used in CI without a complicated setup.
 
