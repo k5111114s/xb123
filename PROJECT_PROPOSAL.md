@@ -1,8 +1,8 @@
-# xb123 项目申报书
+# MoonHAR HTTP Archive 解析与性能分析库 项目申报书
 
 ## 基本信息
 
-项目名称：xb123：MoonHAR HTTP Archive 解析与性能分析库  
+项目名称：MoonHAR HTTP Archive 解析与性能分析库  
 参赛者：许博  
 联系方式：2230679121@qq.com  
 GitHub 仓库链接：https://github.com/k5111114s/xb123  
